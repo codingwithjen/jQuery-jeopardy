@@ -1,0 +1,56 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+#gameboard {
+  color: white;
+  background-color: #060ce9;
+  flex-direction: column;
+  font-size: 15px;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  width: 800px;
+  border-collapse: collapse;
+}
+
+#gameboard th, #gameboard td {
+  border: solid 1px white;
+  width: 15em;
+  padding: 2em;
+}
+
+.container {
+  display: flex; 
+  justify-content: center;
+}
+
+h1 {
+  background-color: #060ce9;
+  color: white;
+  font-size: 60px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+#restart { 
+  display: block;
+  border-radius: 5px;
+  width: 150px;
+  height: 35px;
+}
+
+.title {
+  justify-content: center;
+}
+
+
+th {
+  text-transform: uppercase;
+  font-weight: bold;
+  height: 5em
+}
